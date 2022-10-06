@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/font_size"
@@ -48,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/my_blue"
+            android:onClick="goodAnswer"
             android:layout_margin="8dp" />
 
         <Button
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/my_yellow"
+            android:onClick="goodAnswer"
             android:layout_margin="8dp" />
     </LinearLayout>
 
@@ -70,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/my_dark_color"
+            android:onClick="goodAnswer"
             android:layout_margin="8dp" />
 
         <Button
@@ -78,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/my_grey"
+            android:onClick="goodAnswer"
             android:layout_margin="8dp" />
 
         <Button

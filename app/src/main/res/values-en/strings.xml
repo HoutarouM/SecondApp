@@ -3,4 +3,5 @@
     <string name="app_name">SecondApp</string>
     <string name="question">"Choose colors, which aren't in the polish flag  "</string>
     <string name="bad_answer">Bad answer</string>
+    <string name="game_end">Game end</string>
 </resources>

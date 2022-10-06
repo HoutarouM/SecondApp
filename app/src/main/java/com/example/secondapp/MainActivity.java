@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 //    nie stosowac onClick
 
+    int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void goodAnswer(View view) {
         view.setVisibility(View.INVISIBLE);
+
+        counter++;
+
+        if (counter >= 5) {
+            TextView header = findViewById(R.id.textHeader);
+
+            header.setText(R.string.game_end);
+        }
     }
 }
