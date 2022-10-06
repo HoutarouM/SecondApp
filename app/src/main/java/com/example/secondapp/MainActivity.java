@@ -3,6 +3,7 @@ package com.example.secondapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
 //    wszystkie texsty powinne byc ekstraktowane do strings xml
 
-//    layout dotyczy contenera w ktorym mam
+//    grawity layout dotyczy contenera w ktorym mam
 //    grawity zawartosci
 
 //    dp piksele niezalezne
@@ -45,5 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
             header.setText(R.string.game_end);
         }
+    }
+
+    public void restart(View view) {
+
     }
 }
