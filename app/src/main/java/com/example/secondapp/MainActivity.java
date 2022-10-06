@@ -32,4 +32,8 @@ public class MainActivity extends AppCompatActivity {
     public void badAnswer(View view) {
         Toast.makeText(MainActivity.this, R.string.bad_answer, Toast.LENGTH_LONG).show();
     }
+
+    public void goodAnswer(View view) {
+        view.setVisibility(View.INVISIBLE);
+    }
 }
