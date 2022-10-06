@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity {
 
 //    wszystkie texsty powinne byc ekstraktowane do strings xml
 
+//    layout dotyczy contenera w ktorym mam
+//    grawity zawartosci
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
