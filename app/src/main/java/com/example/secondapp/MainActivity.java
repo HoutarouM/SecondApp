@@ -6,6 +6,11 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+//    element powinien miec width i heigth
+//    wrap content wezmij tyle mijsca ile potrzebujesz
+
+//    wszystkie texsty powinne byc ekstraktowane do strings xml
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
