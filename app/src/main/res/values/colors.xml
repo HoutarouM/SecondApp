@@ -14,4 +14,6 @@
     <color name="my_green">#4AB14C</color>
     <color name="my_blue">#1C188C</color>
     <color name="my_yellow">#BD7A05</color>
+    <color name="my_layout_background">#E0E6DF</color>
+    <color name="font_color">#BCA409</color>
 </resources>
