@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 //    layout dotyczy contenera w ktorym mam
 //    grawity zawartosci
 
+//    dp piksele niezalezne
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
