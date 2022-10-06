@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SecondApp</string>
-    <string name="question">Wybierz kolory ktore sa w fladze Polski</string>
+    <string name="question">Wybierz kolory ktore nie sa w fladze Polski</string>
+    <string name="bad_answer">Zla odpowiedz</string>
 </resources>

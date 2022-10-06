@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SecondApp</string>
-    <string name="question">"Choose colors, which are in the polish flag  "</string>
+    <string name="question">"Choose colors, which aren't in the polish flag  "</string>
+    <string name="bad_answer">Bad answer</string>
 </resources>

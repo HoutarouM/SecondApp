@@ -3,6 +3,8 @@ package com.example.secondapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,9 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
 //    dp piksele niezalezne
 
+//    nie stosowac onClick
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+//        przypisanie widoku do aktywnosci
         setContentView(R.layout.activity_main);
+    }
+
+    public void badAnswer(View view) {
+        Toast.makeText(MainActivity.this, R.string.bad_answer, Toast.LENGTH_LONG).show();
     }
 }
